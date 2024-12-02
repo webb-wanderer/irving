@@ -9,6 +9,18 @@
   ],
   "creatorBuild" : "34590",
   "files" : {
+    "\/_assets\/css\/irving.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_assets\/css\/irving-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/_assets\/css\/irving.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -36,6 +48,36 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/_assets\/includes\/nav-hhp.htm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_assets\/includes\/nav-hhp.htm",
+      "oF" : 0
+    },
+    "\/_assets\/js\/footer-irving-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_assets\/js\/footer-irving-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/_assets\/js\/footer-irving.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/_assets\/js\/footer-irving-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/_assets\/siteicons\/android-chrome-192x192.png" : {
       "ft" : 32768,
@@ -679,6 +721,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.html",
+      "oF" : 0
+    },
+    "\/search\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/search\/index.html",
+      "oF" : 0
+    },
+    "\/toc.htm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/toc.htm",
       "oF" : 0
     }
   },
