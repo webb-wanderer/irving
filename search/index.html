@@ -7,23 +7,34 @@
 <link rel="stylesheet" href="/_assets/css/irving.css" media="screen">
 <!-- end bbinclude -->
 	<title>Find files on this site</title>
-<link rel="stylesheet" href="/_assets/css/search.css" media="screen">
+<!-- #bbinclude "pagefind-meta.incl" -->
+<link href="/pagefind/pagefind-component-ui.css" rel="stylesheet">
+<style>
+	.sidebar-search pagefind-modal-trigger {
+	    display: block;
+	    width: 100%;
+	}
+</style>
+<!-- end bbinclude -->
+
 </head>
 <body>
 <!-- #bbinclude "header-irving.incl" -->
-<header><div class="header"><a href="https://www.historiography-project.com/index.php" title="The Holocaust Historiography Project"><img src="/_assets/img/hhlogo2.png" alt="The Holocaust Historiography Project" width="225" height="85"></a></div></header><main class="container-fluid"><div class="row"><article class="col-md-10"><div id="nav-di"><p class="well" style="height: 51px;"> </p></div>
+<header><div class="header"><a href="https://www.historiography-project.com/index.php" title="The Holocaust Historiography Project"><img src="/_assets/img/hhlogo2.png" alt="The Holocaust Historiography Project" width="225" height="85"></a></div></header><main class="container-fluid"><div class="row"><article class="col-md-10"><div id="nav-di"><p class="well" style="height: 51px;"></p></div>
 <!-- end bbinclude -->
-			<h1>
+<!-- #bbinclude "irving-v-lipstadt.incl" -->
+<p class="h1">Irving vs. Penguin Books and Deborah Lipstadt</p>
+<!-- end bbinclude -->
+			<h2>
 				Search
-			</h1>
-			<form action="https://www.google.com/search" method="get" class="search-form">
-<!-- Hidden input to restrict search to specific domain -->
-				<input type="hidden" name="sitesearch" value="irving-v-lipstadt.historiography-project.com">
-				<div class="search-wrapper">
-					<input type="text" name="q" placeholder="Search this archive ..." required="">
-					<button type="submit">Search</button>
-				</div>
-			</form>
+			</h2>
+<!-- #bbinclude "pagefind-searchbox.incl" -->
+<div class="sidebar-search"><pagefind-input></pagefind-input><pagefind-summary></pagefind-summary><pagefind-results></pagefind-results></div>
+<p class="small text-right">Search feature courtesy <a href="https://pagefind.app/" id="note">Pagefind</a>.</p>
+<!-- #bbpragma ignore_errors="on" -->
+<script src="/pagefind/pagefind-component-ui.js" type="module"></script>
+<!-- #bbpragma ignore_errors="off" -->
+<!-- end bbinclude -->
 			<ol>
 				<li> <a href="/20000111_irving.html">Day 1</a> </li>
 				<li> <a href="/20000112_irving.html">Day 2</a> </li>
