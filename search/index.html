@@ -4,7 +4,7 @@
 <!-- #bbinclude "metatags.incl" -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link rel="stylesheet" href="/_assets/css/irving.css" media="screen">
+<link rel="stylesheet" href="/_assets/css/irving.css" media="screen"><meta name="Keywords" content="Irving vs. Penguin Books and Deborah Lipstadt"><meta name="description" content="Irving vs. Penguin Books and Deborah Lipstadt">
 <!-- end bbinclude -->
 	<title>Find files on this site</title>
 <!-- #bbinclude "pagefind-meta.incl" -->
@@ -20,14 +20,11 @@
 </head>
 <body>
 <!-- #bbinclude "header-irving.incl" -->
-<header><div class="header"><a href="https://www.historiography-project.com/index.php" title="The Holocaust Historiography Project"><img src="/_assets/img/hhlogo2.png" alt="The Holocaust Historiography Project" width="225" height="85"></a></div></header><main class="container-fluid"><div class="row"><article class="col-md-10"><div id="nav-di"><p class="well" style="height: 51px;"></p></div>
+<header class="header"><a href="https://www.historiography-project.com/index.php" title="The Holocaust Historiography Project"><img src="/_assets/img/hhlogo2.png" alt="The Holocaust Historiography Project" height="85"></a></header><div class="wrapContent"><div class="wrapMain"><main>
 <!-- end bbinclude -->
-<!-- #bbinclude "irving-v-lipstadt.incl" -->
-<p class="h1">Irving vs. Penguin Books and Deborah Lipstadt</p>
-<!-- end bbinclude -->
-			<h2>
+			<h1>
 				Search
-			</h2>
+			</h1>
 <!-- #bbinclude "pagefind-searchbox.incl" -->
 <div class="sidebar-search"><pagefind-input></pagefind-input><pagefind-summary></pagefind-summary><pagefind-results></pagefind-results></div>
 <p class="small text-right">Search feature courtesy <a href="https://pagefind.app/" id="note">Pagefind</a>.</p>
@@ -70,10 +67,16 @@
 				<li> <a href="/20000315_irving.html">Day 32</a> </li>
 			</ol>
 <!-- #bbinclude "footer.incl" -->
-</article><!-- /.col-md-10 --><div class="col-md-2"><nav class="navigation" id="nav-hhp"></nav></div><!-- /.col-md-2 --></div><!-- /.row --></main><!-- /.container --><footer class="container-fluid footer"><div class="row"><div class="col-md-12"><p class="text-center"><a href="mailto:&#119;&#x65;&#x62;&#109;&#97;&#x73;t&#x65;&#114;&#64;&#x68;&#105;&#x73;&#116;&#111;&#x72;&#105;&#111;&#103;&#114;&#97;&#112;h&#121;&#45;&#x70;&#x72;&#x6F;&#x6A;&#x65;&#x63;&#x74;&#46;com">Contact us</a></p></div><!-- /.col-md-12 --></div><!-- /.row --></footer><!-- /.container -->
+</main><header><p class="h1">Irving vs. Penguin Books and Deborah Lipstadt</p></header><div class="navbar-target" id="navbar-target"></div></div><div class="nav-hhp-target" id="nav-hhp-target"></div></div><footer class="footer"><p class="text-center"><a href="mailto:&#119;&#x65;&#x62;&#109;&#97;&#x73;t&#x65;&#114;&#64;&#x68;&#105;&#x73;&#116;&#111;&#x72;&#105;&#111;&#103;&#114;&#97;&#112;h&#121;&#45;&#x70;&#x72;&#x6F;&#x6A;&#x65;&#x63;&#x74;&#46;com">Contact us</a></p></footer>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
 </script>
-<script src="/_assets/js/footer-irving.js"></script>
+
+<script>
+$(document).ready(function () {
+	$("#navbar-target").load("/_assets/partials.htm #navbar-source");
+	$("#nav-hhp-target").load("/_assets/partials.htm #nav-hhp-source");
+});
+</script>
 <!-- end bbinclude -->
 </body>
 </html>
